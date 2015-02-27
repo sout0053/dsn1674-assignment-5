@@ -7,15 +7,67 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+main {
+  margin: .5em;
+}
+
 .inset-left {
   float: left;
-  width: 30%;
-  margin-right: 15px;
+  width: 40%;
+  margin-right: 10px;
+  margin-left: 1px;
+}
+
+.inset-right {
+  float: right;
+  width: 40%;
+  clear: right;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .inset-left-2 {
   float: left;
   width: 25%;
-  margin-right: 15px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   clear: left;
+}
+
+header {
+  background-color: #cd5b34;
+  color: white;
+  display: block;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.p2 {
+  clear: left;
+}
+
+nav li {
+  background-color: #cd5b34;
+  display: inline;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: #a93f35;
+  text-decoration: none;
+  display: inline;
+}
+
+.bottom {
+  list-style: none;
+  clear: right;
 }
