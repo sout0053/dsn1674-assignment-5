@@ -1,3 +1,21 @@
 html {
   font-family: 'Merriweather', serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.inset-left {
+  float: left;
+  width: 30%;
+  margin-right: 15px;
+}
+
+.inset-left-2 {
+  float: left;
+  width: 25%;
+  margin-right: 15px;
+  clear: left;
 }
