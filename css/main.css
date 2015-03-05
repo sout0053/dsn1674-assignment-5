@@ -31,6 +31,7 @@ main {
 }
 
 .inset-left-2 {
+  padding: 0;
   float: left;
   width: 25%;
   margin-right: 10px;
@@ -49,6 +50,7 @@ header {
 
 h1 {
   margin: 0;
+  text-align: center;
 }
 
 .p2 {
@@ -90,4 +92,97 @@ nav li:hover {
 .bottom {
   list-style: none;
   clear: right;
+}
+
+div {
+  margin: 0em;
+  color: white;
+  background-color: #dc8252;
+  overflow: hidden;
+  border-top: 1px solid #d05c2e;
+  border-bottom: 1px solid #d05c2e;
+  clear: right;
+}
+
+.corn {
+  width: 100%;
+  border: 0;
+}
+
+.corn-info {
+  text-align: center;
+  font-style: italic;
+  color: white;
+  margin: 0;
+  padding-bottom: 1.5em;
+}
+
+.rice-info {
+  margin: 0;
+  padding-top: 0.1;
+  padding-bottom: 1.5;
+  float: left;
+  width: 50%;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+}
+
+.oats-info {
+  width: 50%;
+  float: right;
+  padding: 0;
+  border: 0;
+}
+
+.oats {
+  margin: 0;
+  padding-top: 0.1;
+  padding-bottom: 1.5;
+  float: left;
+  width: 50%;
+  font-style: italic;
+  text-align: center;
+  color: #fff;
+}
+
+.inset-rice {
+  width: 50%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+img {
+  border: 1px solid #cccccc;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  background-color: #d05c2e;
+  color: #dc8252;
+  text-align: center;
+  padding: 1;
+  margin: 0;
+  clear: both;
+  font-size: 0.75rem;
+}
+
+.grain-left {
+  float: left;
+  width: 8%;
+  margin: 10px;
+  border: 0;
+}
+
+.grain-right {
+
+  float: right;
+  width: 8%;
+  margin: 10px;
+  border: 0;
 }
