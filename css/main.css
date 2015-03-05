@@ -55,16 +55,36 @@ h1 {
   clear: left;
 }
 
+nav {
+  overflow: hidden;
+  margin: 0;
+  clear: left;
+}
+
+nav ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 nav li {
-  background-color: #cd5b34;
-  display: inline;
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  border: 1px solid #a93f35;
+  padding: 0.5em;
+}
+
+nav a {
+  padding: 0.5em;
+  margin: 0.20em;
+  color: #fff;
   text-decoration: none;
+  font-family: 'Merriweather';
 }
 
 nav li:hover {
   background-color: #a93f35;
-  text-decoration: none;
-  display: inline;
 }
 
 .bottom {
