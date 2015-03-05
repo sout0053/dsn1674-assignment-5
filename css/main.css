@@ -118,9 +118,6 @@ div {
 }
 
 .rice-info {
-  margin: 0;
-  padding-top: 0.1;
-  padding-bottom: 1.5;
   float: left;
   width: 50%;
   font-style: italic;
@@ -136,9 +133,6 @@ div {
 }
 
 .oats {
-  margin: 0;
-  padding-top: 0.1;
-  padding-bottom: 1.5;
   float: left;
   width: 50%;
   font-style: italic;
@@ -166,7 +160,6 @@ footer {
   background-color: #d05c2e;
   color: #dc8252;
   text-align: center;
-  padding: 1;
   margin: 0;
   clear: both;
   font-size: 0.75rem;
@@ -174,15 +167,15 @@ footer {
 
 .grain-left {
   float: left;
-  width: 8%;
+  width: 10%;
   margin: 10px;
   border: 0;
 }
 
 .grain-right {
-
+  clear: right;
   float: right;
-  width: 8%;
+  width: 10%;
   margin: 10px;
   border: 0;
 }
